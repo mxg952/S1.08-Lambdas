@@ -48,6 +48,9 @@ Create a mixed list with text and numbers. Apply:
 - Replace all 'a' characters with '4'.
 - Filter and show only numeric strings.
 
+## Execution
+To execute run the Main class of any exercise.
+
 ## Technologies Used
 * Java
 * IntelliJ
@@ -60,7 +63,7 @@ Create a mixed list with text and numbers. Apply:
 ## Clone the repository:
 
 ```
-https://github.com/mxg952/S1.05-Java_Utils-.git
+https://github.com/mxg952/S1.08-Lambdas.git
 ```
 2. Open the project with IntelliJ IDEA.
 
