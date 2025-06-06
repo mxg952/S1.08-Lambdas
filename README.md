@@ -1,6 +1,7 @@
 # S1.05 - Lambdas
 
 ## 🟢 Level 1
+In the path "/level1/AllExcercices/model/LambdaMethods.java" there are the methods for any of the follow exercises:
 
 ### Exercise 1
 Create a method that returns a list of strings containing the letter 'o'. Use lambdas and the Streams API.
@@ -29,6 +30,7 @@ Create a functional interface with a method `reverse()` that takes a string and 
 ---
 
 ## 🟡 Level 2
+In the path "/level2/AllExcercices/model/LambdaMethodsLevel2.java" there are the methods for any of the follow exercises:
 
 ### Exercise 1
 Create a list of names. Write a method that returns the names starting with 'A' and having exactly 3 letters.
@@ -37,7 +39,7 @@ Create a list of names. Write a method that returns the names starting with 'A' 
 Write a method that returns a comma-separated string from a list of integers, prefixing each with 'e' for even and 'o' for odd.
 
 ### Exercise 3
-Create a functional interface with a method `operacio()` that returns a float. Inject different operations (sum, subtract, multiply, divide) using lambdas.
+Create a functional interface with a method `operation()` that returns a float. Inject different operations (sum, subtract, multiply, divide) using lambdas.
 
 ### Exercise 4
 Create a mixed list with text and numbers. Apply:
