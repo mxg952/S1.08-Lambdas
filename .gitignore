@@ -4,6 +4,13 @@ out/
 !**/src/test/**/out/
 .idea
 S1.08_Lambdas.iml
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+modules.xml
 
 ### Eclipse ###
 .apt_generated
