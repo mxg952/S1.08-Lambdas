@@ -6,6 +6,6 @@ public class Main_ex1 {
     public static void main(String[] args) {
         RunManager_ex1 runManager = new RunManager_ex1();
         runManager.loadWords();
-        runManager.ofilter();
+        System.out.println(runManager.filter());
     }
 }

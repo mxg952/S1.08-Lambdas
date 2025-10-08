@@ -15,16 +15,15 @@ public class RunManager_ex1 {
         words.add("Adios");
         words.add("bye");
         words.add("Ciao");
-        words.add("Adeu");
+        words.add("Adéu");
         words.add("Hello");
         words.add("Hola");
-        words.add("Murcielago");
+        words.add("Murciélago");
     }
 
-    public void ofilter () {
-        List<String> result = this.words.stream()
+    public List<String> filter() {
+        return this.words.stream()
                 .filter(word -> word.contains("o")).toList();
-        System.out.println("Word with 'o': " + result);
-    }
+            }
 
 }

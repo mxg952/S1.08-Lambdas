@@ -13,20 +13,12 @@ public class RunManager_ex4 {
     }
 
     public void loadWords() {
-        words.add("Adios");
-        words.add("bye");
-        words.add("Ciao");
-        words.add("Adeu");
-        words.add("Hello");
-        words.add("Hola");
-        words.add("Murcielago");
+        words = Arrays.asList("January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December");
     }
 
     public void printMonthsMethodReference() {
-        List<String> months = Arrays.asList("January", "February", "March", "April", "May", "June",
-                "July", "August", "September", "October", "November", "December");
-
-        months.forEach(System.out::println);
+        words.forEach(System.out::println);
     }
 
 }
